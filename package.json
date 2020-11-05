@@ -15,7 +15,10 @@
     "postdeploy": "npm run migrate:production"
   },
   "keywords": [],
-  "author": "Thomas `tomatao` Hudspith-Tatham <iammotivated@gmail.com>",
+  "engine":{
+    "node": "10.11.10"
+  }
+  "author": "Larue Joyner lrny-lru",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
