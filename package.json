@@ -15,8 +15,8 @@
     "postdeploy": "npm run migrate:production"
   },
   "keywords": [],
-  "engine":{
-    "node": "10.11.10"
+  "engine": {
+    "node": "14.12.0"
   },
   "author": "Larue Joyner lrny-lru",
   "license": "MIT",
@@ -27,8 +27,7 @@
     "helmet": "^3.23.3",
     "knex": "^0.16.5",
     "morgan": "^1.10.0",
-    "pg": "^7.8.0",
-    "postgrator": "^4.1.1",
+    "pg": "^8.4.2",
     "postgrator-cli": "^3.1.0",
     "uuid": "^8.3.1",
     "valid-url": "^1.0.9",
